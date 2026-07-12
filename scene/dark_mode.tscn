@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://8xqc47jot444"]
+
+[ext_resource type="Script" uid="uid://b3f7blou4lr1p" path="res://scene/dark_mode.gd" id="1_1y6g5"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m1akl"]
+size = Vector2(20, 686)
+
+[node name="darkMode" type="Area2D" unique_id=1298988181]
+script = ExtResource("1_1y6g5")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1496928702]
+position = Vector2(0, -333)
+shape = SubResource("RectangleShape2D_m1akl")

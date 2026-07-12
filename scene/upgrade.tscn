@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dm2l1wbc685es"]
+
+[ext_resource type="Script" uid="uid://duh8k64v41lws" path="res://scene/upgrade.gd" id="1_nlsrb"]
+[ext_resource type="Texture2D" uid="uid://qv5sqs3mfhx7" path="res://assest/Other/Transition.png" id="1_rebu6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_m1akl"]
+
+[node name="upgrade" type="Area2D" unique_id=442375538]
+script = ExtResource("1_nlsrb")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1358729617]
+texture = ExtResource("1_rebu6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1843082746]
+shape = SubResource("RectangleShape2D_m1akl")
